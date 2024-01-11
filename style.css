@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border: 1px solid black;
+    width: 120em;
+    height: 60em;
+}
+th{
+    background-color: #0F1035;
+    border: 1px solid black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+tr{
+    height: 2.5em;
+}
+tr:nth-child(odd){
+    background-color: #7FC7D9;
+}
+tr:nth-child(even){
+    background-color: #DCF2F1;
+}
