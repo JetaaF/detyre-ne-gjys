@@ -566,5 +566,5 @@ for( let i = 0; i < prova.products.length;i++){
     row.insertCell(3).innerHTML = koha.rating;
     row.insertCell(4).innerHTML = koha.brand;
     row.insertCell(5).innerHTML = koha.category;
-    row.insertCell(6).innerHTML = `<img src = $"{koha.thumbnail}" </img>`;
+    row.insertCell(6).innerHTML = `<img src = "${koha.thumbnail}" />`;
 }
